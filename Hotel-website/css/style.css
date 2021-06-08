@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+/* core style */
+html,body{
+    font-family: 'Roboto', sans-serif;
+    line-height:1.7em;
+}
+a{
+    
+    text-decoration:none;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+p{
+    margin: 10px 0;
+}
+
+/* //////////////////////////// */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+/* navigation bar */
+
+#navbar
+{   
+    background: #333;
+    color: white;
+    overflow: auto;
+    }
+#navbar a{
+    color:white;
+}
+
+#navbar h1{
+    float:left;
+    padding:20px 0 0 0;
+}
+#navbar ul {
+    float: right;
+    list-style:none;
+}
+#navbar ul li{
+    float: left; 
+/* no padding here */
+}
+
+#navbar ul li a{
+    /* be more specific */
+    display: block;
+    padding: 20px;
+    text-align:center;
+}
+#navbar ul li a:hover{
+    background: rgba(233, 63, 63, 0.267);
+}
+
+.current-page{
+    background: rgba(233, 63, 63, 0.267);
+}
+
