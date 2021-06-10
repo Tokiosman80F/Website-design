@@ -51,7 +51,12 @@ p{
     color:white;
 }
 
-
+.bg-primary{
+    background-color: rgb(255, 136, 0);
+}
+.bg-second{
+    background:white;
+}
 /* navigation bar */
 
 #navbar
@@ -136,4 +141,24 @@ p{
 #section-1 .info-content p{
     padding-bottom: 30px ;
     line-height: 1.7em;
+}
+
+/* section-2 */
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+/* footer */
+ #main-footer{
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 10px;
+
 }
