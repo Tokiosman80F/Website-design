@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+/* most needed */
+html,body{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.7em;    
+}
+
+  a{
+      text-decoration: none;
+  }  
+    p{
+    color: rgb(58, 57, 57);
+    }    
+
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+.primary-btn{
+    color: white;
+    background: rgb(226, 93, 115);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+
+.half-width{
+    float: left;
+    width: 48%;
+}
