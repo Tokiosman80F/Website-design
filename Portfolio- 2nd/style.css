@@ -13,7 +13,8 @@ html,body{
   a{
       text-decoration: none;
   }  
-    p{
+    
+  p{
     color: rgb(58, 57, 57);
     font-size: 15px;
     }  
@@ -22,6 +23,8 @@ html,body{
 h1,h2,h3{
     padding-bottom: 20px;
     font-size: 50px;
+    
+    
 }
 
 .primary-btn{
@@ -30,13 +33,23 @@ h1,h2,h3{
     border: none;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+    
+}
+.primary-btn:hover{background:royalblue;}
+#highlight-pink{
+    color: palevioletred;
 }
 
 /* ////header */
 header {
     background-image: url("images/header-bg.png");
-
-
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 200px;
 }
 .half-width{
     float: left;
@@ -46,4 +59,8 @@ header {
 .half-width img{
     width: 100%;
     border-radius: 2%;
+}
+section{
+    height: 500px;
+    margin-bottom: 200px;
 }
