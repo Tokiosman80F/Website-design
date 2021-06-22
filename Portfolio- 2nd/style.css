@@ -1,11 +1,11 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 /* main styling */
 /* most needed */
-html,body{
+body{
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.7em;    
 }
@@ -27,25 +27,21 @@ h1,h2,h3{
     
 }
 
-.primary-btn{
-    color: white;
-    background: rgb(226, 93, 115);
-    border: none;
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
 
-    
-}
-.primary-btn:hover{background:royalblue;}
+
 #highlight-pink{
     color: palevioletred;
 }
 
+section{
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+
 /* ////header */
-header {
+#top-banner
+ {
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     height: 500px;
@@ -60,7 +56,14 @@ header {
     width: 100%;
     border-radius: 2%;
 }
-section{
-    height: 500px;
-    margin-bottom: 200px;
+.primary-btn{
+    color: white;
+    background: rgb(226, 93, 115);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
 }
+.primary-btn:hover{background:royalblue;}
