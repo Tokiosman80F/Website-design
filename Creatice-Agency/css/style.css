@@ -114,6 +114,49 @@ ul
     width: 100%;
     z-index: 100;
 }
+
+/* Slick slider start*/
+.banner-slider
+{
+    z-index: 100;
+    
+}
+.slick-dots
+{   
+text-align: center;
+list-style: none;
+}
+
+.slick-dots li
+{
+    display: inline-block;
+    margin-right: 10px;
+    background: red;
+    width: 10px;
+    height: 10px;
+    line-height: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.slick-dots li button
+{
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    line-height: 19px;
+    border: none;
+    border-radius: 50%;
+    background: #000;
+    opacity: 0;
+    
+}
+.slick-dots li .slick-active button
+{
+    opacity: 1;
+}
+/* Slick slider end */
+
 /* banner part end */
 
 /* about start */
