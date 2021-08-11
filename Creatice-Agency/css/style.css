@@ -320,5 +320,122 @@ margin: 0 auto;
 /* vedio end */
 
 
+/* team part start */
+
+#team
+{
+    background: url(/imgs/bg-2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0;
+}
+#team::after
+{   
+    background: rgba(50, 43, 81,.7);
+    position:absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.team-top-text
+{
+    z-index: 100;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.team-top-text h3
+{
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+}
+
+/* Drawing a line  */
+.team-top-text p
+{
+ font-size: 14px;
+ font-family: 'Playfair Display', serif;
+ position: relative;
+    
+}
+.team-top-text p::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #655c80;
+    left: 50%;
+    top: 45px;
+    transform: translate(-50%,-50%);
+}
+
+.team-member
+{
+    position: relative;
+    z-index: 120;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.team-card
+{
+    background: none;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+.team-card h5
+{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.team-card p
+{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.team-text-buttom
+{
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+
+.team-text-buttom p
+{
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.team-text-buttom a
+{
+    border: 1px solid #00e0d0;
+    padding: 15px;
+    color: #00e0d0;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* team slider */
+.team-slider
+{
+    position: relative;
+    z-index: 100;
+}
+
+/* team part end */
+
 /* font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; */

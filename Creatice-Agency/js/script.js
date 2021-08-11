@@ -13,6 +13,18 @@ $('.banner-slider').slick({
     autoplay:true,
   });
 
+  // team slider
+  $('.team-slider').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows:false,
+    dots:false,
+  
+  });
+
+
   // venobox you vedio
   $('.venobox').venobox({
     framewidth : '853px',                          
