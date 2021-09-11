@@ -25,6 +25,27 @@ $('.banner-slider').slick({
   });
 
 
+  // team two slider 
+  $('.text-slide').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    asNavFor: '.slider-img'
+  });
+  $('.slider-img').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    asNavFor: '.text-slide',
+    dots: false,
+    centerMode: true,
+    centerPadding: '0px',//center padding : use for padding in between imgs 
+    focusOnSelect: true,
+    prevArrow:'.team-arrow-left',
+    nextArrow:'.team-arrow-right'
+    
+  });
+
   // venobox you vedio
   $('.venobox').venobox({
     framewidth : '853px',                          
