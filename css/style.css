@@ -599,6 +599,35 @@ margin: 0 auto;
     transition: 1s;
 }
 
+/* contract part start */
+#contact
+{
+    padding: 70px 0 ;
+}
+
+.contact-left h3,
+.contact-right h3
+{   
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: 5a5763;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.contact-left a
+{
+    border: 1px solid #00e0d0;
+    padding: 10px 40px;
+    color: #00e0d0;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+/* contract part end */
+
 /* team-2 end */
 
 /* font-family: 'Playfair Display', serif;
